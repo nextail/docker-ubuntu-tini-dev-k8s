@@ -1,6 +1,6 @@
 # Docker image with Kubernetes tools
 
-This is a Docker image based on [rubensa/ubuntu-tini-dev](https://github.com/rubensa/docker-ubuntu-tini-dev) 24.04 and includes various kubernetes tools.
+This is a Docker image based on [nextail/ubuntu-tini-dev](https://github.com/nextail/docker-ubuntu-tini-dev) 24.04 and includes various kubernetes tools.
 
 ## Building
 
@@ -9,7 +9,7 @@ You can build the image like this:
 ```
 #!/usr/bin/env bash
 
-DOCKER_REPOSITORY_NAME="rubensa"
+DOCKER_REPOSITORY_NAME="nextail"
 DOCKER_IMAGE_NAME="ubuntu-tini-dev-k8s"
 DOCKER_IMAGE_TAG="24.04"
 
@@ -30,7 +30,7 @@ You can run the container like this (change --rm with -d if you don't want the c
 ```
 #!/usr/bin/env bash
 
-DOCKER_REPOSITORY_NAME="rubensa"
+DOCKER_REPOSITORY_NAME="nextail"
 DOCKER_IMAGE_NAME="ubuntu-tini-dev-k8s"
 DOCKER_IMAGE_TAG="24.04"
 

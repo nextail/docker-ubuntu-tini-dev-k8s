@@ -1,4 +1,4 @@
-FROM rubensa/ubuntu-tini-dev-chrome
+FROM nextail/ubuntu-tini-dev-chrome
 LABEL author="Ruben Suarez <rubensa@gmail.com>"
 
 # Architecture component of TARGETPLATFORM (platform of the build result)

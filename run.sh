@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOCKER_REPOSITORY_NAME="rubensa"
+DOCKER_REPOSITORY_NAME="nextail"
 DOCKER_IMAGE_NAME="ubuntu-tini-dev-k8s"
 DOCKER_IMAGE_TAG="18.04"
 

@@ -1,4 +1,4 @@
-FROM rubensa/ubuntu-tini-dev
+FROM nextail/ubuntu-tini-dev
 LABEL author="Ruben Suarez <rubensa@gmail.com>"
 
 # Architecture component of TARGETPLATFORM (platform of the build result)

@@ -13,9 +13,9 @@ on:
 jobs:
   # This workflow call reusable workflow docker-build
   build:
-    uses: rubensa/docker-ubuntu-tini/.github/workflows/docker-build.yml@master
+    uses: nextail/docker-ubuntu-tini/.github/workflows/docker-build.yml@master
     with:
-      DOCKER_REPOSITORY_NAME: rubensa
+      DOCKER_REPOSITORY_NAME: nextail
       DOCKER_IMAGE_NAME: ubuntu-tini-dev-chrome-k8s
       DOCKER_IMAGE_TAG: 18.04
     secrets: inherit

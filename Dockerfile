@@ -12,7 +12,7 @@ USER root
 ENV HOME=/root
 
 # https://github.com/helm/helm/releases
-ARG HELM_VERSION=3.16.1
+ARG HELM_VERSION=4.3.1
 RUN <<EOT
 echo "# Installing helm..."
 #
